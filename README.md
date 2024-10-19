@@ -1,2 +1,2 @@
 # Help International. 
- This is a Data Set that includes data from diffrent countries with difffrent features eg. Inflation , Child Mortality , health budget and etc.  This data seeks to achieve insights on where the company should prioritize the donor funding for maximum impact . 
+ This is a Data Set that includes data from diffrent countries with difffrent features eg. Inflation , Child Mortality , health budget and etc.  This data seeks to achieve insights on where the company should prioritize the donor funding for maximum impact . Considering the type of Data Set we use Unsupervised machine learning means to train our model and gain insights on the countries that need the donor funding more and on priority.
