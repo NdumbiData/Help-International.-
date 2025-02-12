@@ -1,18 +1,45 @@
 # Help International. 
- Data EDA & Feature Engineering
-This repository focuses on exploratory data analysis (EDA) and feature engineering to prepare data for machine learning models.
+ 
+# Country Data Analysis – EDA & Feature Engineering 
+**Author:** Ndumbi Kimani  
 
-Project Structure
-Data Cleaning: Addressing missing values, outliers, and normalizing data.
-Exploratory Data Analysis (EDA): Visualizing key features and trends in the dataset.
-Feature Engineering: Creating new features and transforming data to improve model performance.
+## Project Overview
+This project performs **Exploratory Data Analysis (EDA) and Feature Engineering** on a country-based dataset to extract meaningful insights, detect patterns, and prepare the data for machine learning applications.  
 
-Key Features
-Dataset: Analyzed for trends, distributions, and relationships among variables.
-Feature Engineering: Includes techniques such as feature scaling, encoding categorical variables, and creating interaction terms.
-Results: Insights from EDA are used to guide feature engineering and improve the dataset for machine learning.
+## Data & Analysis Approach
+- **Dataset:** Includes economic and social indicators for different countries.  
+- **EDA Techniques:**  
+  - **Data Cleaning & Handling Missing Values**  
+  - **Univariate & Bivariate Analysis** (distribution plots, heatmaps)  
+  - **Correlation Analysis** to identify feature relationships  
 
-How to Run
-Clone the repository.
-Install necessary dependencies from requirements.txt.
-Run the Jupyter notebook to explore the data and apply feature engineering techniques.
+## Feature Engineering
+- **Scaling & Normalization** using MinMaxScaler  
+- **Encoding Categorical Variables** for model compatibility  
+- **Feature Selection** to retain the most informative attributes  
+
+## Key Insights
+- **Child Mortality & Income Levels:** Countries with high child mortality tend to have lower GDP per capita.  
+- **Exports & GDP Growth:** A strong correlation between higher exports and economic stability.  
+- **Inflation Trends:** Higher inflation rates negatively impact economic development.  
+
+## Tech Stack
+- **Python, Pandas, NumPy, Matplotlib, Seaborn**  
+- **Scikit-Learn** (Feature Engineering, Scaling, Encoding)  
+- **Jupyter Notebook**  
+
+## How to Use This Repository
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/Country-EDA.git
+   cd Country-EDA
+   ```
+2. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Jupyter Notebook:  
+   ```bash
+   jupyter notebook
+   ```
+4. Explore **EDA findings, feature transformations, and insights**.  
