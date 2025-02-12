@@ -31,7 +31,7 @@ This project performs **Exploratory Data Analysis (EDA) and Feature Engineering*
 ## How to Use This Repository
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/yourusername/Country-EDA.git
+   git clone https://github.com/ndumbidata/Country-EDA.git
    cd Country-EDA
    ```
 2. Install dependencies:  
@@ -42,4 +42,4 @@ This project performs **Exploratory Data Analysis (EDA) and Feature Engineering*
    ```bash
    jupyter notebook
    ```
-4. Explore **EDA findings, feature transformations, and insights**.  
+4. Explore EDA findings, feature transformations, and insights.  
